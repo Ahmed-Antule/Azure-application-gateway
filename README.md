@@ -1,18 +1,27 @@
 # Azure-application-gateway
 
-Summary: Deploying Azure Application Gateway for Load Balancing
+## Overview
+This project demonstrates the setup and configuration of **Azure Application Gateway**, a web traffic load balancer operating at Layer 7 (HTTP/HTTPS) that provides routing, SSL termination, Web Application Firewall (WAF), and high availability.
+
+## Features
+- Layer 7 Load Balancing
+- URL-based Routing
+- SSL/TLS Termination
+- Web Application Firewall (WAF)
+- Autoscaling and Health Probes
+
+## Use Case
+This configuration can be used to:
+- Host multiple websites behind one gateway.
+- Protect web applications from OWASP vulnerabilities.
+- Route traffic intelligently across microservices.
+
+### Summary: Deploying Azure Application Gateway for Load Balancing
 In this project, I configured Azure Application Gateway to securely route traffic to a web application. The steps include:
 
-Creating a Virtual Network (VNet) with two subnets:
-One for the Application Gateway.
-One for the Application (VMs hosting the website).
-Deploying a Virtual Machine (VM) in the application subnet.
-Connecting to the VM via RDP and installing the IIS server to host a dummy website.
-Configuring the Application Gateway to route traffic to the IIS server.
-Retrieving the Public IP of the Application Gateway to access the hosted website.
-This setup enables secure, scalable, and efficient web traffic management using Azure's Layer 7 load balancing. 🚀
 
-Step - 1
+
+### Step - 1
 i. Create a virtual Network
 <img width="1366" height="628" alt="Capture1" src="https://github.com/user-attachments/assets/ab5acc1e-5bde-43c6-8800-5938b18e0a23" />
 
@@ -27,7 +36,7 @@ iii. Once the virtual Network is done , Lets create a VM , make sure you selecte
 iv. Deploy the VM in subnet that you created
 <img width="1366" height="626" alt="Capture4" src="https://github.com/user-attachments/assets/30534ec0-8d2d-499a-ac0d-2af9c918eceb" />
 
-Step- 2
+### Step- 2
 i. Connect your VM with the RDP
 <img width="894" height="900" alt="5" src="https://github.com/user-attachments/assets/484e1942-ab75-4fbb-87e4-e2a724b01fa2" />
 
@@ -40,7 +49,7 @@ iii. Install Web Server IIS
 <img width="799" height="565" alt="Capture6" src="https://github.com/user-attachments/assets/9504e3c5-3fb2-4254-a7e4-a409f81d8a1a" />
 
 
-Step - 3
+### Step - 3
 i. Create Application Gateway, select your virtual network then click on Manage subnet configuration
 <img width="1366" height="552" alt="Capture7" src="https://github.com/user-attachments/assets/94b16420-a055-4bbc-bab3-c78177f15cff" />
 <img width="1366" height="623" alt="Capture8" src="https://github.com/user-attachments/assets/98573d2d-a9c1-4429-aa2f-3c83748c7016" />
