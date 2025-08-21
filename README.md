@@ -29,17 +29,21 @@ iv. Deploy the VM in subnet that you created
 
 Step- 2
 i. Connect your VM with the RDP
-<img width="1366" height="700" alt="Capture5" src="https://github.com/user-attachments/assets/6a935163-a2ce-4258-836a-fae0da420fe1" />
+<img width="894" height="900" alt="5" src="https://github.com/user-attachments/assets/484e1942-ab75-4fbb-87e4-e2a724b01fa2" />
+
 
 ii. Go into server manager , then click on add roles and features
-<img width="799" height="565" alt="Capture6" src="https://github.com/user-attachments/assets/797c75a2-5bfd-46b5-bfad-22dbc361e2df" />
+<img width="1366" height="700" alt="Capture5" src="https://github.com/user-attachments/assets/46215675-fcd3-42e6-ad6f-4aa4cca0c449" />
+
 
 iii. Install Web Server IIS
-<img width="1366" height="552" alt="Capture7" src="https://github.com/user-attachments/assets/d1d8ee79-f8e5-430a-8abf-9d1ce80ce77d" />
+<img width="799" height="565" alt="Capture6" src="https://github.com/user-attachments/assets/9504e3c5-3fb2-4254-a7e4-a409f81d8a1a" />
+
 
 Step - 3
 i. Create Application Gateway, select your virtual network then click on Manage subnet configuration
-<img width="1366" height="623" alt="Capture8" src="https://github.com/user-attachments/assets/1d6120b5-b1db-4ef8-854a-d85ece649d50" />
+<img width="1366" height="552" alt="Capture7" src="https://github.com/user-attachments/assets/94b16420-a055-4bbc-bab3-c78177f15cff" />
+<img width="1366" height="623" alt="Capture8" src="https://github.com/user-attachments/assets/98573d2d-a9c1-4429-aa2f-3c83748c7016" />
 
 ii. Click on + subnet , give the name and the left 64 ip address will be asign to this application gateway
 <img width="1366" height="626" alt="Capture9" src="https://github.com/user-attachments/assets/46c3b861-31c6-4ce0-a9ff-7c48fdf697bd" />
@@ -58,8 +62,8 @@ vi. host a demo webiste on Web server IIS
 
 vii. Lets configure the configuration part
 <img width="1366" height="629" alt="Capture14" src="https://github.com/user-attachments/assets/5e7a08a9-b91d-4f6a-9faa-a20cf248dafd" />
-<img width="1366" height="624" alt="Capture15" src="https://github.com/user-attachments/assets/32f716cf-c2aa-473d-bb80-54ae8a4f2376" />
 <img width="1366" height="626" alt="Capture16" src="https://github.com/user-attachments/assets/05623dba-e103-4a14-980c-7374c81977c1" />
+<img width="1366" height="624" alt="Capture15" src="https://github.com/user-attachments/assets/32f716cf-c2aa-473d-bb80-54ae8a4f2376" />
 <img width="1366" height="628" alt="Capture17" src="https://github.com/user-attachments/assets/739ff808-3d6c-46b6-b8b1-1a4fdd630566" />
 <img width="1366" height="732" alt="Capture18" src="https://github.com/user-attachments/assets/79218d93-3ea7-4e00-ab12-46fee4aa144c" />
 
