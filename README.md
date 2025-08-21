@@ -17,10 +17,12 @@ i. Create a virtual Network
 <img width="1366" height="628" alt="Capture1" src="https://github.com/user-attachments/assets/ab5acc1e-5bde-43c6-8800-5938b18e0a23" />
 
 ii. I have reserved 64 Ip address for the virtual machine and 64 for the application gateway
-<img width="1366" height="616" alt="Capture3" src="https://github.com/user-attachments/assets/9f1bef6f-04cb-4911-b265-657d551cfb6e" />
+<img width="1366" height="624" alt="Capture3" src="https://github.com/user-attachments/assets/1a121f60-b9a3-45f3-aefe-3506d372c716" />
+
 
 iii. Once the virtual Network is done , Lets create a VM , make sure you selected this ports.
-<img width="1366" height="624" alt="Capture2" src="https://github.com/user-attachments/assets/42ae56e0-2060-4910-9e94-65ba4a0ad78d" />
+<img width="1366" height="616" alt="Capture2" src="https://github.com/user-attachments/assets/5c457233-28ed-4381-816a-b50d7d097b3d" />
+
 
 iv. Deploy the VM in subnet that you created
 <img width="1366" height="626" alt="Capture4" src="https://github.com/user-attachments/assets/30534ec0-8d2d-499a-ac0d-2af9c918eceb" />
